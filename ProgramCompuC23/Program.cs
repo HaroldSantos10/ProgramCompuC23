@@ -52,6 +52,22 @@ namespace ProgramCompuC23
                 Console.WriteLine(item);
             }
 
+            Console.WriteLine("IMPRIME ELEMENTOS CON FOR - ARREGLO ORDENADO");
+            //llamado a la clase array y al metodo sort
+            Array.Sort(numbers);//el metodo sort permite ordenar los valores dentro de un array
+            for (int j = 0; j < numbers.Length; j++)
+            {
+                Console.WriteLine("posicion {0} ; {1}", j, numbers[j]);
+            }
+
+            Console.WriteLine("IMPRIME ELEMENTOS CON FOREACH - ARREGLO INVERTIDO");
+            Array.Reverse(numbers); //reverse permite invertir los valores dentro de un array
+            foreach (int item in numbers)
+            {
+                Console.WriteLine(item);
+            }
+
+
         }
     }
 }
