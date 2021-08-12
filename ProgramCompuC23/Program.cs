@@ -41,7 +41,7 @@ namespace ProgramCompuC23
             } while (10 < numbers.Length);
 
             Console.WriteLine("IMPRIME ELEMENTOS CON FOR");
-            for(int j=0; i< numbers.Length; i++)
+            for(int j=0; j< numbers.Length; j++)
             {
                 Console.WriteLine("posicion {0} ; {1}",j, numbers[j]);
             }
